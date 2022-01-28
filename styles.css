@@ -1,0 +1,125 @@
+/* html { 
+    background: url(image.jpeg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .mt-5 {
+      font-size: 50px;
+  }
+
+  th {
+      font-size: 35px;
+  } */
+  th {
+    color:white;
+}
+.mt-5 {
+    color: yellow;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+body, html {
+    height: 100%;
+  }
+  
+  html {
+      
+    /* The image used */
+    background-image:linear-gradient(
+        rgba(0, 0, 0, 0.45),
+        rgba(0, 0, 0, 0.45)
+      ), url("image.jpeg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+
+img {
+    margin: auto;
+}
+th {
+    text-align: center;
+    font-size: 35px;
+}
+tr {
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+}
+
+[type=button] {
+    background-color: red;
+    color: white;
+}
+p {
+    font-size: 30px;
+    
+}
+td {
+    border-style : hidden!important;
+   }
+   input {
+    border-style : hidden!important;
+       color: white;
+       background-color: black;
+       width: 25%;
+       font-weight: 700;
+   }
+
+   @media screen and (max-width:800px) {
+
+    .mt-5  {
+            font-size: 25px;
+        }
+       th {
+           font-size: 20px;
+       }
+     td{
+         font-size: 15px;
+     }
+     [type=button], [type=reset], [type=submit], button {
+        font-size: 15px;
+    }
+  }
+
+  @media screen and (max-width:1000px) {
+
+    .mt-5  {
+            font-size: 30px;
+        }
+       th {
+           font-size: 25px;
+       }
+     td{
+         font-size: 20px;
+     }
+     [type=button], [type=reset], [type=submit], button {
+        font-size: 20px;
+    }
+  }
+  @media screen and (max-width:400px) {
+
+    .mt-5  {
+            font-size: 20px;
+        }
+       th {
+           font-size: 14px;
+       }
+     td{
+         font-size: 13px;
+     }
+     [type=button], [type=reset], [type=submit], button {
+        font-size: 10px;
+    }
+  }

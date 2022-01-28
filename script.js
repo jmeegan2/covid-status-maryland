@@ -15,7 +15,7 @@ function init() {
             <td>${data.deaths.toLocaleString()}</td>
             <td>${data.population.toLocaleString()}</td>
             
-            <td id="percentage">${(((data.deaths) / (data.population)) * 100).toLocaleString()}</td>
+            
             `
 
         $("#data").html(data)
@@ -34,3 +34,5 @@ function clearData() {
     $("#data").empty()
     init()
 }
+
+// <td id="percentage">${(((data.deaths) / (data.population)) * 100).toLocaleString()}</td>
